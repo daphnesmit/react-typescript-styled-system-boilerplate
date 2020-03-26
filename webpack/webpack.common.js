@@ -53,7 +53,7 @@ module.exports = {
     chunkFilename: 'chunks/[name].[hash].js',
     filename: '[name].[hash].js',
     publicPath: '/',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../dist'),
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -64,6 +64,6 @@ module.exports = {
       cwd: process.cwd(),
     }),
     new HtmlWebpackPlugin({ template: path.resolve('index.html') }),
-    new CopyWebpackPlugin([{ from: 'assets', to: path.resolve(__dirname, 'dist/assets') }]),
+    new CopyWebpackPlugin([{ from: 'assets', to: path.resolve(__dirname, '../dist/assets') }]),
   ],
 }

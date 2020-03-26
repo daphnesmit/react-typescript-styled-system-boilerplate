@@ -1,7 +1,7 @@
 {
   "name": "react-typescript-styled-system-boilerplate",
   "description": "📦 A minimal setup for a React project with TypeScript and Styled System (Styled Components)",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.html",
   "license": "ISC",
   "homepage": "https://github.com/daphnesmit/react-typescript-styled-system-boilerplate#readme",
@@ -53,7 +53,8 @@
     "deploy": "webpack --config ./webpack/webpack.prod.js",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook",
-    "svgr": "npx @svgr/cli ./assets/svg --template ./assets/svg/svgrtemplate.js --ext tsx --out-dir ./src/components/atoms/icons"
+    "svgr": "npx @svgr/cli ./assets/svg --template ./assets/svg/svgrtemplate.js --ext tsx --out-dir ./src/components/atoms/icons",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "polished": "^3.5.1",
@@ -118,6 +119,7 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^4.2.2",
+    "semantic-release": "^17.0.4"
   }
 }

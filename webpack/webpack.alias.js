@@ -1,4 +1,4 @@
-const tsconfig = require('./tsconfig.json')
+const tsconfig = require('../tsconfig.json')
 const path = require('path')
 
 // get aliases from tsconfig
