@@ -1,4 +1,3 @@
-import { Footer } from '@components/organisms'
 import { Box, Column, Contain, Flex, Heading, Row, Text } from '@components/system'
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
