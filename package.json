@@ -49,8 +49,8 @@
     "prepare": "npm run svgr",
     "type-check": "tsc --noEmit",
     "lint-fix": "eslint src/ --ext .ts,.tsx --fix",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
-    "deploy": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config ./webpack/webpack.dev.js",
+    "deploy": "webpack --config ./webpack/webpack.prod.js",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook",
     "svgr": "npx @svgr/cli ./assets/svg --template ./assets/svg/svgrtemplate.js --ext tsx --out-dir ./src/components/atoms/icons"

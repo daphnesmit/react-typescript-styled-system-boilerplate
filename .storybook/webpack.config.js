@@ -1,4 +1,4 @@
-const alias = require('../webpack.alias')
+const alias = require('../webpack/webpack.alias')
 
 module.exports = ({ config }) => {
   config.module.rules.push({

@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '12'
+
+cache:
+  directories:
+    - node_modules
+
+before_deploy:
+  - npm install netlify-cli -g
+  - npm run deploy
+
+deploy:
+  provider: script
+  script: netlify deploy -s react-typescript-styled-system-boilerplate -t 08e9f1282f4dcb0c0a092ff412e44b3df0a44d2e6d8d9fac3d11ac1d1998d29a -p ./dist
+  skip_cleanup: true
+  on:
+    branch: master
