@@ -1,0 +1,20 @@
+export const colors = {
+  primary: '#F2CB05',
+  primary2: '#F2B807',
+  primary3: '#F2DFA7',
+  primary4: '#F29F05',
+  secondary: '#1c1c20',
+  tertiary: '#c0c8da',
+  error: '#ed4f88',
+  black: '#1c1c20',
+  white: '#f5f7f9',
+  succes: '#aed223',
+  warning: '#ed4f88',
+  neutral: '#52bcdf',
+  grey: {
+    dark: '#1c1c20',
+    medium: '#c0c8da',
+    light: '#d8deec',
+    lighter: '#F2F2F2',
+  },
+}
