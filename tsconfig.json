@@ -25,7 +25,6 @@
       "@components/*": ["./src/components/*"],
       "@constants/*": ["./src/constants/*"],
       "@context/*": ["./src/context/*"],
-      "@pages/*": ["./src/pages/*"],
       "@polyfills/*": ["./src/polyfills/*"],
       "@services/*": ["./src/services/*"],
       "@theme/*": ["./src/theme/*"],

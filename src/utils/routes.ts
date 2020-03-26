@@ -1,6 +1,5 @@
+import { About, Blog, Contact, Dashboard, Example } from '@components/pages'
 import { ComponentType } from 'react'
-
-import { About, Blog, Contact, Dashboard, Example } from '../pages'
 
 interface RouteComponentTypeProps {
   redirect?: boolean
