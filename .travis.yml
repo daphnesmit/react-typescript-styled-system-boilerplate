@@ -9,5 +9,6 @@ deploy:
   provider: surge
   project: ./dist/
   domain: react-typescript-styled-system-boilerplate.surge.sh
+  skip_cleanup: true
   on:
     branch: master
