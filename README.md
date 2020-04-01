@@ -1,4 +1,4 @@
-# 📦 Welcome to the official unofficial react-typescript-styled-system-boilerplate setup
+# Welcome to the official unofficial react-typescript-styled-system-boilerplate setup
 
 [![Build Status](https://travis-ci.com/daphnesmit/react-typescript-styled-system-boilerplate.svg?branch=master)](https://travis-ci.com/daphnesmit/react-typescript-styled-system-boilerplate)
 ![David](https://img.shields.io/david/dev/daphnesmit/react-typescript-styled-system-boilerplate)
