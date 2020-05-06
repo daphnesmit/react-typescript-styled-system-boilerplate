@@ -1,6 +1,7 @@
 import '@utils/detectTouch'
 import '@utils/detectKeyboardFocus'
 
+import { AnnouncementCenter } from '@components/organisms'
 import { Router } from '@components/organisms/Router'
 import { BaseLayout } from '@components/templates/BaseLayout'
 import { ContextProvider } from '@context/ContextProvider'
@@ -19,7 +20,8 @@ const App: FC = () => {
           <>
             <GlobalStyle />
             <BaseLayout>
-              <Router/>
+              <Router />
+              <AnnouncementCenter />
             </BaseLayout>
           </>
         </ContextProvider>

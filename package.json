@@ -57,6 +57,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "@reach/visually-hidden": "^0.10.1",
     "polished": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
